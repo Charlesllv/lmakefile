@@ -17,6 +17,7 @@ child.o:child.c child.h
 .PHONY :clean
 #清除编译产生的中间文件
 clean :
+	@ls
 	@echo 清除编译结果
 	-rm -f *.o main
 
